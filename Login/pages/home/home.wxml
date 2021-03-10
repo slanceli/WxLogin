@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<view class="bg-white padding-lr">
+  <view class="solids-bottom padding-xs flex align-center">
+    <view class="flex-sub text-center">
+      <view class="solid-bottom text-xsl padding">
+        <text class=" cuIcon-roundcheckfill text-green"></text>
+      </view>
+      <view class="padding">登录成功</view>
+    </view>
+  </view>
+</view>>
