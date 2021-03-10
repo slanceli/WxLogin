@@ -12,10 +12,6 @@ type Body struct {//定义一个结构体来接受POST请求的数据
 	Name string `json:"name"`
 	Passwd string `json:"passwd"`
 }
-type User struct {
-	Name string
-	Passwd string
-}
 
 func InitDB() (err error){
 	dns := "root:admin@tcp(127.0.0.1:3306)/class"
